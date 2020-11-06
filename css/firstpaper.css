@@ -1,0 +1,178 @@
+.back{
+    display: flex;
+    flex-direction: column;
+}
+.second{
+    background-image: linear-gradient(-135deg,#e66c72, #71346c);
+    padding: 0 0 0 50px;
+    margin: 0;
+    height: 20vh;
+}
+.second_inner{
+ font-size: 28px;
+    color: white;
+    height: 55px;
+    font-weight: bold;
+}
+.third{
+   display: flex;
+   height: 70vh;
+
+}
+.leave{
+    width: 50px;
+    background-color: snow;
+}
+.third_left{
+    width: 14vw;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+
+}
+.kk{
+    width: 65vw;
+    height: 65vh;
+    display: none;
+}
+.personnal{
+    height: 18vh;
+    display: flex;
+    background-color: snow;
+}
+.img{
+    border-radius: 50%;
+    height: 5vw;
+    width: 5vw;
+    position: absolute;
+    left: 5vw
+}
+.wenzi{
+    flex: 1;
+    font-weight: bold;
+}
+.select{
+    display: block;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    border-right: 1.5px gray solid;
+    font-weight: bold;
+}
+.leftinner{
+    display: block;
+    height: 5vh;
+    width: 14vw;
+    font-size: 1.5vh;
+    line-height: 5vh;
+    text-align: center;
+    font-weight: normal;
+}
+.leftinner:hover{
+    background: lightgray;
+}
+
+.third_right{
+    flex: 1;
+    border-left: 10px black;
+    display: flex;
+    flex-direction: column;
+
+}
+.third_1{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+}
+.kezi{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    border-bottom: 3px #71246c solid;
+
+
+}
+.keziinner{
+    font-weight: bold;
+    color: #71246c;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    height: 100%;
+    width: 25%;
+
+}
+.keziinner:hover{
+    transition: all 1000ms;
+    background-color: #71346b;
+    color: white;
+}
+.third_2{
+    width: 100%;
+    height: 100%;
+    border: 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.thirdinner{
+    width: 65vw;
+    height: 65vh;
+    /*background-color:lightgrey;*/
+    border-radius: 25px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 90%;
+    height: 60vh;
+
+    align-items: center;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+
+
+
+}
+.neirong{
+    height: 15vh;
+    display: flex;
+    border: 2px grey solid;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.inner_left{
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.text_img{
+    height: 4vw;
+    top: 2vh;
+    left:2vw;
+
+}
+.inner_right{
+flex: 1;
+}
+/*.text::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+.juzhong{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9015493-9cb5-4941-9dbe-fc8455546813" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tc7OH2tMgHE9ZRJj8aviiiApAt" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9015493-9cb5-4941-9dbe-fc8455546813" name="默认的" comment="" />
+      <created>1573747495633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573747495633</updated>
+      <workItem from="1573747496951" duration="395000" />
+      <workItem from="1573747904650" duration="12243000" />
+      <workItem from="1573833923609" duration="7385000" />
+      <workItem from="1573874211747" duration="6043000" />
+      <workItem from="1573895317427" duration="2713000" />
+      <workItem from="1573899779308" duration="2726000" />
+      <workItem from="1573910566529" duration="4039000" />
+      <workItem from="1573920780315" duration="762000" />
+      <workItem from="1573964648702" duration="5321000" />
+      <workItem from="1573971760658" duration="10082000" />
+      <workItem from="1573988677039" duration="9998000" />
+      <workItem from="1574003076527" duration="3575000" />
+      <workItem from="1574041615118" duration="313000" />
+      <workItem from="1574062662833" duration="1940000" />
+      <workItem from="1574069276679" duration="5396000" />
+      <workItem from="1574080099584" duration="246000" />
+      <workItem from="1574080608285" duration="197000" />
+      <workItem from="1574080877560" duration="189000" />
+      <workItem from="1574081142829" duration="1875000" />
+      <workItem from="1574085087063" duration="2508000" />
+      <workItem from="1574092791905" duration="245000" />
+      <workItem from="1574123944046" duration="1867000" />
+      <workItem from="1574127596365" duration="742000" />
+      <workItem from="1574151090216" duration="6461000" />
+      <workItem from="1574157921842" duration="423000" />
+      <workItem from="1574158396153" duration="28000" />
+      <workItem from="1574158673583" duration="11236000" />
+      <workItem from="1574170564725" duration="1384000" />
+      <workItem from="1574223938182" duration="4814000" />
+      <workItem from="1574230058928" duration="323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/index.js</url>
+          <line>287</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学风专区</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/qiuqiu.css" rel="stylesheet">
+    <link href="css/25.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+
+<!--    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>-->
+
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="echarts.min.js"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/index.js" rel="script"> </script>
+    <script src="js/qiuqiu.js" rel="script"> </script>
+</head>
+<body>
+<div class="a25" id="88" style="display: none;z-index: 100;background: url(css/456.png);background-size:100vw 100vh ;width: 100vw;height: 100vh">
+    <h1 style="position: fixed;margin: 40vh;margin-left: 30vw;font-weight: bolder;color: white;    font-family:Microsoft YaHei;;font-size: 15vh">谢谢观看！</h1>
+</div>
+
+<div class="a25" id="77" style="display: none;z-index: 100;background: url(pp.png);background-size:100vw 100vh ;width: 100vw;height: 100vh">
+    <div id="nexttt" style="position: fixed;top: 10vh;left: 85vw;font-size: 7vh;color: white">  >  </div>
+    <div class="returner">
+        成果展示
+    </div>
+
+    <div id="returnnn" style="color: white;font-size: 2vh;position: fixed;top: 12vh;left: 14vw;display: block">
+        <svg t="1573990336186" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7620" width="3.8vw" height="3.8vw"><path d="M672 889.6v6.4h-512v-64h448a256 256 0 0 0 0-512h-256v102.4a26.496 26.496 0 0 1-27.584 25.152 29.056 29.056 0 0 1-16.128-4.8l-200.96-133.824a23.872 23.872 0 0 1-6.4-35.2 26.816 26.816 0 0 1 6.4-5.568l200.96-133.76a29.12 29.12 0 0 1 38.4 5.568 23.68 23.68 0 0 1 5.312 14.848V256h256a320 320 0 0 1 64 633.6z" fill="#e6e6e6" p-id="7621"></path></svg>
+    </div>
+
+    <img src="ss.png" class="img2" style="top: 52vh;left: 13vw;width:70vw ">
+    <img src="ff.png" class="img2" style="top: 21vh;left: 15vw;width:70vw ">
+
+</div>
+
+<div class="a25" id="66" style="display: none;z-index: 100;background: url(pp.png);background-size:100vw 100vh ;width: 100vw;height: 100vh">
+    <div class="returner">
+        成果展示
+    </div>
+    <div id="nextt" style="position: fixed;top: 10vh;left: 85vw;font-size: 7vh;color: white">  >  </div>
+
+    <div id="returnn" style="color: white;font-size: 2vh;position: fixed;top: 12vh;left: 14vw;display: block">
+        <svg t="1573990336186" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7620" width="3.8vw" height="3.8vw"><path d="M672 889.6v6.4h-512v-64h448a256 256 0 0 0 0-512h-256v102.4a26.496 26.496 0 0 1-27.584 25.152 29.056 29.056 0 0 1-16.128-4.8l-200.96-133.824a23.872 23.872 0 0 1-6.4-35.2 26.816 26.816 0 0 1 6.4-5.568l200.96-133.76a29.12 29.12 0 0 1 38.4 5.568 23.68 23.68 0 0 1 5.312 14.848V256h256a320 320 0 0 1 64 633.6z" fill="#e6e6e6" p-id="7621"></path></svg>
+    </div>
+
+    <div id="z1" style="position: fixed; top:30vh;transition: left 1s">
+        <div id="main" style="width: 400px;height:400px;margin: 0 auto;float: left;transition: width 1s,height 1s;"></div>
+        <div id="a1" class="zqa" style="color: white;font-size: 4vh" >四级通过率</div>
+    </div>
+
+    <div id="z2" style="position: fixed; top:30vh;transition: left 1s">
+        <div id="zqa" style="width: 400px;height:400px;margin: 0 auto;float: left;transition: width 1s,height 1s;"></div>
+        <div id="a2" class="zqa"style="color: white;font-size: 4vh">期末通过率</div>
+    </div>
+    <div id="z3" style="position: fixed; top:30vh;transition: left 1s">
+        <div id="xws" style="width: 400px;height:400px;margin: 0 auto;float: left;transition: width 1s,height 1s;"></div>
+        <div id="a3" class="zqa"style="color: white;font-size: 4vh">入党申请率</div>
+    </div>
+    <div id="z4" style="position: fixed; top:30vh;transition: left 1s;">
+        <div id="ced" style="width: 400px;height:400px;margin: 0 auto;float: left;transition: width 1s,height 1s;"></div>
+        <div id="a4" class="zqa"style="color: white;font-size: 4vh">部门留部率</div>
+    </div>
+
+</div>
+
+<div id="index"><div id="stone">
+    <div id="start">
+        <div style="z-index: 40;position: fixed;width: 100vw;height: 100vh">
+        <div ><img src="logoleft(已去底).png" alt="" class="logoleft"></div>
+<!--        <img src="logoright(已去底).jpg" alt="" class="logoright">-->
+        <div id="s_text">天津工业大学</div>
+        <div id="s_head">计算机科学与技术学院 软件z1801</div>
+        <div id="s_show">优良学风展示</div>
+        <div id="s_button">进入</div>
+        </div>
+        <div class="asdasdasd" style="position: fixed;width: 100vw;height: 100vh;opacity: 0.3;z-index: 0"></div>
+    </div>
+    <div id="innerhtnl" >
+
+
+        <div id="box">
+            <div id="index_box" class="selectinon">
+                <div class="leftinner" style="position: fixed;top: 15vh;left: 22vw;font-size: 6vh;font-weight: bolder;color:#71246b">
+                    软件z1801班级网站·学风专区
+                </div>
+                <div id="text">
+                    <div id="text_true">
+                        <div class="nb">尖端成果</div>
+                        <div class="nb">核心建设</div>
+                        <div class="nb">基础建设</div>
+                    </div>
+                    <div class="texe_detail">
+                        <div class="nb_2">创新意识 创新能力<br>成果转化</div>
+                        <div class="nb_2">知识传授 能力培养<br>价值塑造</div>
+                        <div class="nb_2">建设良好的知识基础<br>和组织基础</div>
+                    </div>
+                </div>
+                <div id="pyramid">
+                    <div class="layer" id="hhhhhhh">
+                        <div id="one" class="brick">创新意识</div>
+                        <div id="second">
+                            <div id="two" class="brick">创新能力</div>
+                            <div id="three" class="brick">成果转化</div>
+                        </div>
+
+                    </div>
+                    <div class="layer"id="show" style="height: 13vh">
+                        <div id="first_2">
+                            <div id="one_2" class="brick_">自主选择</div>
+                            <div id="two_2" class="brick_">小组学习</div>
+                        </div>
+                        <div id="second_2">
+                            <div id="three_2" class="brick_">企业培养</div>
+                            <div id="four_2" class="brick_">产品调研</div>
+                            <div id="five_2" class="brick_">学术交流</div>
+                        </div>
+                    </div>
+                    <div class="layer"  style="margin-top: 0" id="the_three">
+                        <div id="first_3">
+                            <div id="one_3" class="brick_">班规制定</div>
+                            <div id="two_3" class="brick_">班委组成</div>
+                            <div id="three_3" class="brick_">团体建设</div>
+                        </div>
+                        <div id="second_3">
+                            <div id="four_3" class="brick_">四级陪养</div>
+                            <div id="five_3" style="opacity: 0" class="brick_"></div>
+                            <div id="six_3" class="brick_">思想文化</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="first_box" class="selectinon" >
+                <div class="top_message">
+                    <div id="return_first"></div>
+<!--                    班级概况和班委组成-->
+                    <div class="texttext" id="texttext_2">团体建设</div>
+                    <div class="texttext" style="display: none" id="texttext_3">四级学习</div>
+                    <div class="texttext" style="display: none" id="texttext_4">班规制定改为班级规范</div>
+                    <div class="texttext" style="display: none" id="texttext_5">思想文化</div>
+                    <div class="texttext" style="display: none" id="texttext_6"></div>
+
+                </div>
+                <div class="next" id="left"></div>
+                <div class="detail_box">
+<!--                    <div class="detail" id="detail_1" style="font-size: 3vw;font-weight: bold">-->
+<!--                        <span style="font-weight: bold">班级概况：</span> 我班共30人，男生27人，女生3人-->
+<!--                        &nbsp&nbsp&nbsp&nbsp-->
+<!--                        <div align="center"><img  src="图片1.png" align="middle" style="vertical-align:middle;"></div>-->
+<!--                    </div>-->
+                    <div class="detail"id="detail_2">开展多种多样的班级活动，提升班级凝聚力
+                        依托于每月一次的团日活动，通过参观周邓纪念馆、举行书法比赛、进行夏日水球大战等活动使班级成员增进感情，增强班级凝聚力。
+                        <br><br><div align="center"><img width="40%" height="30%" src="img/1.jpg"><img width="40%" height="30%" src="img/2.jpg"><br><img width="40%" height="30%" src="img/3.jpg"><img width="40%" height="30%" src="img/4.jpg"></div>
+                    </div>
+                    <div class="detail"id="detail_3">
+                        <div style="width: 57%;height: 110%;float: left"><br>
+                            在建立英语学习小组的基础上，针对四级学习制定详细计划：<br>
+                            1.每周利用晚自习进行一次四级模拟训练<br>
+                            2.活跃英语课堂氛围，利用课上学习扩充巩固词汇量并对四级试题有更加系统的把握<br>
+                            3.鼓励参加四级英语学习讲座，统计参与讲座人数<br>
+                            4.参与学院四级英语模拟，了解自己对自己题的把握情况，从而能够有方向的进行学习<br></div>
+                        <br>
+                        <div style="width: 40%; height: 100%;float: right" align="center">
+                            <img width="400vw" height="300vw" src="img/5.jpg">
+                        </div>
+                    </div>
+                    <div class="detail"id="detail_4">
+                        <div align="center"><br><img style="vertical-align:middle"  src="img/6.png"></div>
+                    </div>
+                    <div class="detail"id="detail_5">
+                        <div style="width: 55%;height: 100%;float: left">
+                            1.	理论素养提升<br>
+                            积极配合学院团委进行的学长宣讲活动，对党团知识有更加系统全面的了解。每个星期按时进行青年大学习的学习，增加对党团的了解。<br>
+                            2.	政治素养提升<br>
+                            已经写入党申请的同学每三个月向党组织进行一次思想汇报，总结近期的思想进步情况。<br>
+                            3.业务素养提升<br>
+                            辅导员进行教育培训，明确各个班委具体职责，建立清晰透明的责任制度，提高班干部的履职能力，使班委在其职位中获得充分锻炼。<br>
+                        </div>
+                        <div style="width: 40%;height: 100%;float: right">
+                            <img width="500vw" height="350vw" src="img/7.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="next" id="right"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<div id="qiu">
+    <div id="qiuone">
+<!--    <div class="asdasdasd" style="position: fixed;width: 100vw;height: 100vh;opacity: 0.3;z-index: 0"></div>-->
+    <div class="qiuqiu" id="qiuqiu1">自主择项</div>
+    <div class="qiuqiu" id="qiuqiu2">产业调研</div>
+    <div class="qiuqiu" id="qiuqiu4">企业培养</div>
+    <div class="qiuqiu" id="qiuqiu5">小组学习</div>
+    <div class="qiuqiu" id="qiuqiu3">学术交流</div>
+    <div id="return" style="color: white;font-size: 2vh">
+        <svg t="1573990336186" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7620" width="3.8vw" height="3.8vw"><path d="M672 889.6v6.4h-512v-64h448a256 256 0 0 0 0-512h-256v102.4a26.496 26.496 0 0 1-27.584 25.152 29.056 29.056 0 0 1-16.128-4.8l-200.96-133.824a23.872 23.872 0 0 1-6.4-35.2 26.816 26.816 0 0 1 6.4-5.568l200.96-133.76a29.12 29.12 0 0 1 38.4 5.568 23.68 23.68 0 0 1 5.312 14.848V256h256a320 320 0 0 1 64 633.6z" fill="#e6e6e6" p-id="7621"></path></svg>    </div>
+    <div class="returner">
+        核心建设
+   </div>
+    <div class="asdasdaa"></div>
+    <div class="asdasdaaa"></div>
+    <div id="qiuback" class="innerinner">
+        <div class="return" id="return1" style="display: none">
+            <svg t="1573990336186" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7620" width="3.8vw" height="3.8vw"><path d="M672 889.6v6.4h-512v-64h448a256 256 0 0 0 0-512h-256v102.4a26.496 26.496 0 0 1-27.584 25.152 29.056 29.056 0 0 1-16.128-4.8l-200.96-133.824a23.872 23.872 0 0 1-6.4-35.2 26.816 26.816 0 0 1 6.4-5.568l200.96-133.76a29.12 29.12 0 0 1 38.4 5.568 23.68 23.68 0 0 1 5.312 14.848V256h256a320 320 0 0 1 64 633.6z" fill="#e6e6e6" p-id="7621"></path></svg>
+        </div>
+
+        <div  class="a25" id="11">
+            <div class="returner">
+                自主择项
+            </div>
+            <img src="1-1.png" style="display: block;width: 60vw;position: fixed;top: 25vh;left: 20vw;">
+        </div>
+
+        <div class="a25" id="22">
+            <div class="returner">
+                产业调研
+            </div>
+            <img src="c1.jpg" class="img22"  style=";top: 25vh;left: 10vw">
+            <img src="c2.jpg" class="img22" style="top: 25vh;left: 30vw">
+            <img src="c3.jpg" class="img22" style="top: 25vh;left: 50vw">
+            <img src="c4.jpg" class="img22" style="top: 25vh;left: 70vw;">
+            <div style="position: fixed;top: 70vh;width: 60vw;left: 21.5vw;font-size: 4vh;line-height: 4vh;color: white">
+                与软件园入住产业进行交流和沟通，深入了解公司运作流程
+            </div>
+          </div>
+
+        <div class="a25" id="33">
+            <div class="returner">
+                学术交流
+            </div>
+            <img src="xueshu.jpg" style="display: block;width: 30vw;height: 30vw;position: fixed;left: 55vw;top: 30vh">
+            <div style="position: fixed;top: 30vh;width: 30vw;left: 15vw;font-size: 4vh;line-height: 6vh;color: white">
+                学术交流：小组定期开组会，讨论成员近期的学习问题和技术难题，在组会上提出并由小组成员共同从讨论并提出解决方案，如果成员解决不了则向相关企业老师提出问题并讨论解决。并定期组件大组会，由各组所有成员全部参加，相互学习并交流不同技术，以求多方面发展
+            </div>
+
+        </div>
+        <div class="a25" id="44">
+            <div class="returner">
+                企业培养
+            </div>
+            <img src="q1.jpg" class="img2" style="margin-left: 25vw">
+            <img src="q2.jpg" class="img2" style="margin-left: 55vw">
+            <div style="position: fixed;top: 70vh;width: 60vw;left: 20vw;font-size: 4vh;line-height: 6vh;color: white">
+                参与实习培训，进入企业实地体验项目研发，进行企业级项目开发，由企业老师带队进行更加专业的技术培养
+            </div>
+        </div>
+        <div class="a25" id="55">
+            <div class="returner">
+                小组学习
+            </div>
+            <img src="21.jpg" class="img2" style="margin-left: 15vw"><img src="21.jpg" class="img2"style="margin-left: 40vw"><img src="21.jpg" class="img2"style="margin-left: 65vw">
+            <div style="position: fixed;top: 70vh;width: 60vw;left: 20vw;font-size: 4vh;line-height: 6vh;color: white">
+                为更好的营造班级全体成员共同进步、共同学习的学习氛围，建立学习小组，使同学们根据自己的兴趣及自己的短板自行选择学习小组，达到班级成员共同进步的目标。</div>
+
+        </div>
+
+
+    </div>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>
